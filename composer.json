@@ -7,5 +7,10 @@
             "email": "1243702438@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ggob\\first_test\\":"src/"
+        }
+    }
 }
